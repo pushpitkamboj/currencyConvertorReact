@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-//custom hook
+//used custom hook here using Usestate and UseEffect hooks
 function useCurrencyInfo(currency) {
     const [data, setData] = useState({})
     useEffect(() => {
